@@ -13,7 +13,7 @@ def conflict(k):
 def function(k):
   global
   
-  if k>=n: #超出最后的元素
+  if k>=n: #成功结束，判断条件由具体情况而定
       print(x)
       # X.append(x) 保存多组解
   else:
@@ -26,7 +26,7 @@ def function(k):
 def function(k):
   global
   
-  if k>=n: #超出最后的元素
+  if k>=n: #大多数是超出最后的元素
       print(x)
       # X.append(x) 保存多组解
   else:
